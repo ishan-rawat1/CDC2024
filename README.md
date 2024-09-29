@@ -53,6 +53,8 @@ We offer personalized recommendations for travelers based on their preferences i
    * **`data_cleaning_main.ipynb`**: For cleaning and preparing the data.
    * **`NarasimhaCDC2024.ipynb`**: For the sentiment and clustering analysis.
    * **`negative_positive_words.ipynb`**: For identifying key phrases driving review polarity.
+   * **`sentiment_analysis_visualization.ipynb`**: For visualizing sentiment analysis results.
+   * **`text_processing_translation_GPU_required.ipynb`**: For processing and translating non-English reviews (requires GPU for optimal performance).
 
 4. To visualize the data on an interactive map:
    [View Interactive Map](https://ishan-rawat1.github.io/CDC2024/combined_category_map.html)
@@ -61,5 +63,20 @@ We offer personalized recommendations for travelers based on their preferences i
    python interactive_map.py
    ```
    This will generate maps showing the best-rated locations based on your data.
+
+## Future Work
+
+We aim to:
+
+* Expand the dataset to include more cities globally.
+* Improve our predictive models for business success based on reviews and other metadata.
+* Develop a real-time recommendation system using LLM-enriched data.
+
+## Contributors
+
+* **Ishan Rawat**
+* **Elisei Stakovskii**
+* **Narasimha Cittarusu**
+* **Saksham Rustagi**
 
 
